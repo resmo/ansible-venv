@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+    - debug:
+        msg: test
+    - pip:
+        name: cs
+    - cs_zone_info:
